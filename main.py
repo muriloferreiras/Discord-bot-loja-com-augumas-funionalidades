@@ -22,7 +22,7 @@ bot = bot_on()
 @bot.command()
 async def vendas(ctx: commands.Context):
     embed = discord.Embed(
-        title='🎫 APELLOS STORE 🎫',
+        title='🛒 STORE 🛒',
         description=f'Veja os produtos disponíveis abaixo e escolha a compra de acordo com a necessidade.',
         colour=discord.Colour(5763719),
     )
